@@ -141,6 +141,10 @@ footer .center .menus ul li {
 footer .center .menus ul li a {
   text-decoration: none;
   font-size: 20px;
+  color: #008cff;
+}
+footer .center .menus ul li a:hover{
+  color: #ff0000;
 }
 footer .right .menus {
   display: flex;
