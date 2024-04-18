@@ -51,6 +51,10 @@ nav .menus ul li a {
   text-decoration: none;
   font-size: 20px;
   color: #39a54d;
+  transition: 0.3s ease;
+}
+nav .menus ul li a:hover {
+  color: #ff0000;
 }
 .accueil {
   background-image: url(assets/back.png);
@@ -91,7 +95,7 @@ nav .menus ul li a {
   border: none;
   cursor: pointer;
   border-radius: 5px;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 .about button:hover {
   background-color: #000;
@@ -114,6 +118,10 @@ footer .left {
   flex-direction: column;
   justify-content: space-between;
   padding-left: 50px;
+}
+footer .left p {
+  font-size: 1.2rem;
+  font-weight: 800;
 }
 footer .center .menus {
   display: flex;
@@ -153,9 +161,12 @@ footer .right .menus ul li {
 footer .right .menus ul li a {
   text-decoration: none;
   font-size: 20px;
+  transition: 0.5s ease;
 }
-
 footer .right .menus ul li a img {
   width: 26px;
   height: 27px;
+}
+footer .right .menus ul li a img:hover {
+  transform: scale(1.4);
 }
